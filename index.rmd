@@ -1,0 +1,8 @@
+---
+title: "Welcome"
+author: "Christina K. Pikas"
+date: "September 5, 2017"
+output: html_document
+---
+
+Hello World - anything below this is boilerplate

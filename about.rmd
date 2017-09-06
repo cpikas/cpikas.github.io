@@ -1,0 +1,8 @@
+---
+title: "about"
+author: "Christina K. Pikas"
+date: "September 5, 2017"
+output: html_document
+---
+
+I am awesome and I am doing a tutorial to get started.

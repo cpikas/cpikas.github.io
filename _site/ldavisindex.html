@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>LDAvis: Data Preparation</title>
+    <script src="d3.v3.js"></script>
+    <script src="ldavis.js"></script>
+    <link rel="stylesheet" type="text/css" href="lda.css">
+  </head>
+
+  <body>
+  <h1>Visualization of Topics for Data Preparation</h1>
+  <p>Prepared by: Christina Pikas</p>
+  <p>This reports the results of LDA performed on a results set of ~7500 articles pulled from a search of Inspec on classification code C6130 and terms related to ingest, preparation, wrangling, cleaning, integration, enhancement, enrichment, and exploration. From 20012-2017)</p>
+    <div id = "lda"></div>
+    <script>
+      var vis = new LDAvis("#lda", "lda.json");
+    </script>
+  </body>
+
+</html>
